@@ -21,6 +21,16 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+    // Jackson Databind provides ObjectMapper and TypeReference
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
+
+    // Jackson Core (optional, but good to include)
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.17.0'
+
+    // Jackson Annotations (optional, needed if you use Jackson annotations)
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.17.0'
+    implementation 'org.mindrot:jbcrypt:0.4'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -28,6 +38,7 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
+    sourceCompatibility = '21'
 }
 
 application {

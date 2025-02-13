@@ -1,0 +1,72 @@
+[
+  {
+    "train_id": "NDLS_BCT_EXP",
+    "train_no": 12952,
+    "seats": [
+      [1, 0, 0, 1, 0, 0],
+      [0, 0, 1, 0, 0, 1],
+      [0, 1, 0, 0, 1, 0],
+      [1, 0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "new_delhi": "16:30:00",
+      "jaipur": "20:15:00",
+      "ahmedabad": "04:40:00",
+      "mumbai_central": "08:45:00"
+    },
+    "stations": [
+      "new_delhi",
+      "jaipur",
+      "ahmedabad",
+      "mumbai_central"
+    ]
+  },
+  {
+    "train_id": "HOWRAH_YESV_EXP",
+    "train_no": 12863,
+    "seats": [
+      [0, 0, 1, 1, 0, 0],
+      [0, 1, 0, 0, 0, 1],
+      [1, 0, 0, 1, 0, 0],
+      [0, 0, 1, 0, 1, 0]
+    ],
+    "station_times": {
+      "howrah": "11:00:00",
+      "bhubaneswar": "17:30:00",
+      "visakhapatnam": "23:45:00",
+      "chennai_central": "07:00:00",
+      "yesvantpur": "15:30:00"
+    },
+    "stations": [
+      "howrah",
+      "bhubaneswar",
+      "visakhapatnam",
+      "chennai_central",
+      "yesvantpur"
+    ]
+  },
+  {
+    "train_id": "GKP_LTT_SUP_EXP",
+    "train_no": 12541,
+    "seats": [
+      [1, 0, 1, 0, 1, 0],
+      [0, 1, 0, 1, 0, 0],
+      [0, 0, 1, 1, 0, 1],
+      [1, 0, 0, 0, 1, 0]
+    ],
+    "station_times": {
+      "gorakhpur": "15:20:00",
+      "varanasi": "18:45:00",
+      "prayagraj": "22:00:00",
+      "bhopal": "06:30:00",
+      "lokmanya_tilak": "14:20:00"
+    },
+    "stations": [
+      "gorakhpur",
+      "varanasi",
+      "prayagraj",
+      "bhopal",
+      "lokmanya_tilak"
+    ]
+  }
+]

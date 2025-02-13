@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Amit Sharma",
+    "password": "securepass123",
+    "hashed_password": "$2a$10$abcdEfghIjklMnopQrstUvWxYz1234567890ABCDEF",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket_001",
+        "user_id": "user_amit",
+        "source": "Mumbai",
+        "destination": "Delhi",
+        "date_of_travel": "2024-03-15T06:45:00Z",
+        "train": {
+          "train_id": "MUMBAI_EXP",
+          "train_no": "12902",
+          "seats": [
+            [0, 1, 0, 0, 1, 0],
+            [0, 0, 1, 0, 0, 1],
+            [1, 0, 0, 1, 0, 0],
+            [0, 0, 1, 0, 1, 0]
+          ],
+          "station_times": {
+            "Mumbai": "06:45:00",
+            "Vadodara": "11:30:00",
+            "Jaipur": "18:50:00",
+            "Delhi": "23:30:00"
+          },
+          "stations": ["Mumbai", "Vadodara", "Jaipur", "Delhi"],
+          "train_info": "Train ID: MUMBAI_EXP Train No: 12902"
+        },
+        "ticket_info": "Ticket ID: ticket_001 belongs to User user_amit from Mumbai to Delhi on 2024-03-15T06:45:00Z"
+      }
+    ],
+    "user_id": "user_amit"
+  },
+  {
+    "name": "Priya Verma",
+    "password": "priya@123",
+    "hashed_password": "$2a$10$zxcvbnmQwertyUiopAsdfghJKL0987654321ABCD",
+    "tickets_booked": [
+      {
+        "ticket_id": "ticket_002",
+        "user_id": "user_priya",
+        "source": "Kolkata",
+        "destination": "Bangalore",
+        "date_of_travel": "2024-04-05T14:20:00Z",
+        "train": {
+          "train_id": "HOWRAH_EXP",
+          "train_no": "12864",
+          "seats": [
+            [1, 0, 1, 0, 0, 1],
+            [0, 0, 0, 1, 0, 0],
+            [1, 0, 0, 0, 1, 0],
+            [0, 1, 0, 0, 0, 1]
+          ],
+          "station_times": {
+            "Kolkata": "14:20:00",
+            "Bhubaneswar": "20:10:00",
+            "Chennai": "05:30:00",
+            "Bangalore": "12:45:00"
+          },
+          "stations": ["Kolkata", "Bhubaneswar", "Chennai", "Bangalore"],
+          "train_info": "Train ID: HOWRAH_EXP Train No: 12864"
+        },
+        "ticket_info": "Ticket ID: ticket_002 belongs to User user_priya from Kolkata to Bangalore on 2024-04-05T14:20:00Z"
+      }
+    ],
+    "user_id": "user_priya"
+  },
+  {
+    "name": "Rohit Mehta",
+    "password": "rohit@pass",
+    "hashed_password": "$2a$10$12345QWERTYuiopASDFGHJKL0987654321ZXCVBNM",
+    "tickets_booked": [],
+    "user_id": "user_rohit"
+  }
+]
