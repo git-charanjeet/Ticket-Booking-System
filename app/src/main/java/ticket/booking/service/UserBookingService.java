@@ -67,7 +67,6 @@ public class UserBookingService{
         }
     }
 
-    // todo: Complete this function
     public Boolean cancelBooking(String ticketId){
 
         Scanner s = new Scanner(System.in);
