@@ -62,8 +62,10 @@ public class UserBookingService{
         Optional<User> userFetched = userList.stream().filter(user1 -> {
             return user1.getName().equals(user.getName()) && UserServiceUtil.checkPassword(user.getPassword(), user1.getHashedPassword());
         }).findFirst();
-        if(userFetched.isPresent()){
+        if(userFetched.isPresent() && !userFetched.get().getTicketsBooked().isEmpty()){
             userFetched.get().printTickets();
+        }else{
+            System.out.println("No bookings found !");
         }
     }
 
