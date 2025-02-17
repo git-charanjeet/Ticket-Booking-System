@@ -99,6 +99,16 @@ public class App {
                         System.out.println("Can't book this seat");
                     }
                     break;
+                case 6:
+                    System.out.println("Enter your ticket ID to cancel the booking:");
+                    String ticketId = scanner.next();
+                    Boolean cancellationStatus = userBookingService.cancelBooking(ticketId);
+                    if (cancellationStatus) {
+                        System.out.println("Your booking has been successfully canceled.");
+                    } else {
+                        System.out.println("Cancellation failed. Please check your ticket ID.");
+                    }
+                    break;
                 default:
                     break;
             }
